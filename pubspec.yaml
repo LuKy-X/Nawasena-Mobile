@@ -1,0 +1,56 @@
+name: nawasena
+description: Platform Edukasi Gamifikasi Budaya Jawa
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # HTTP & Networking
+  dio: ^5.4.3+1
+
+  # Secure Storage (token)
+  flutter_secure_storage: ^9.2.2
+
+  # Google Sign In
+  google_sign_in: ^7.0.0
+
+  # Image Caching
+  cached_network_image: ^3.3.1
+
+  # UI Utilities
+  shimmer: ^3.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/mascots/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-Black.ttf
+          weight: 900

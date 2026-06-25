@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "427236973627",
+    "project_id": "nawasena-project-494908",
+    "storage_bucket": "nawasena-project-494908.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427236973627:android:0d6a8bb058dbc19dd3101e",
+        "android_client_info": {
+          "package_name": "com.nawasena.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427236973627-l9pe2ccanbgn2eqiobdbailm8bprrhi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB4zbhoqX0YtP2c5lT1xplUEVRMfUmP2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427236973627-l9pe2ccanbgn2eqiobdbailm8bprrhi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
